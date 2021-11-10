@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "976847833815",
+    "project_id": "chatter-c7f5c",
+    "storage_bucket": "chatter-c7f5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976847833815:android:120b121c8dcf1a8483be92",
+        "android_client_info": {
+          "package_name": "com.example.chatterbeings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976847833815-itr234c2pbn73r2fnthr3f52hiuqg2r0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatterbeings",
+            "certificate_hash": "36b8691ab9596d56fdd5908e8d3239883f0a64e6"
+          }
+        },
+        {
+          "client_id": "976847833815-ctgejka21f3tdek9uubs7uv1qn6hsrpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoLygqGQoVO4YmHZ5JqrqCEeN02AV-_WE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976847833815-ctgejka21f3tdek9uubs7uv1qn6hsrpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

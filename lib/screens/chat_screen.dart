@@ -9,11 +9,11 @@ class ChatScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Chater'),
+        title: const Text('Chatter'),
         actions: [
           IconButton(
               onPressed: () => FirebaseAuth.instance.signOut(),
-              icon: Icon(Icons.logout))
+              icon: const Icon(Icons.logout))
         ],
       ),
       body: Column(

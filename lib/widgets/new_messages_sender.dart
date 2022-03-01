@@ -34,6 +34,7 @@ class _SenderState extends State<Sender> {
   Widget build(BuildContext context) {
     return Row(
       children: [
+        const SizedBox(width: 5,),
         Expanded(child:  TextFormField(
           onChanged: (val){
             setState(() {
@@ -41,8 +42,12 @@ class _SenderState extends State<Sender> {
             });
           },
           controller: messagesController,
-          decoration: const InputDecoration(
+          decoration:  InputDecoration(
             contentPadding: EdgeInsets.all(5),
+            border: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(15),
+            ),
+            labelStyle: const TextStyle(color: Colors.pinkAccent),
             labelText: 'type new message'
           ),
         )),

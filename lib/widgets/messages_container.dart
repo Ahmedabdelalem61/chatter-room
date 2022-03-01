@@ -19,6 +19,7 @@ class MessagesContainer extends StatelessWidget {
           children: [
 
             Container(
+              width: 200,
               decoration: BoxDecoration(
                   color: !isme ? Colors.grey[300] : Colors.pink,
                   borderRadius: BorderRadius.only(
@@ -29,18 +30,18 @@ class MessagesContainer extends StatelessWidget {
                   )),
               padding: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
               margin: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
-              width: 140,
               child: Column(
                   crossAxisAlignment:
                   isme ? CrossAxisAlignment.end : CrossAxisAlignment.start,
-                  children: [Text(username,style: TextStyle(color: isme?Colors.black:Colors.white,fontWeight: FontWeight.bold),),
+                  children: [
+                    Text(username,style: TextStyle(color: isme?Colors.black:Colors.white,fontWeight: FontWeight.bold),),
                     Text(messages,style: TextStyle(color: isme?Colors.black54:Colors.white),),
                   ]),
             ),
             Positioned(
                 top: 0,
-                right: isme?120:null,
-                left: !isme?120:null,
+                right: isme?180:null,
+                left: !isme?180:null,
                 child: CircleAvatar(
                   backgroundColor: Colors.grey[300],
                   backgroundImage: NetworkImage(ImageURL),
